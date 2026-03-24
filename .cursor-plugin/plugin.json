@@ -22,6 +22,6 @@
         "enum": ["mcp.datadoghq.com", "us3.datadoghq.com", "us5.datadoghq.com"]
       }
     },
-    "required": ["DD_MCP_HOSTNAME"]
+    "required": ["DD_MCP_DOMAIN"]
   }
 }
