@@ -12,5 +12,16 @@
     "mcp",
     "observability",
     "productivity"
-  ]
+  ],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "DD_MCP_DOMAIN": {
+        "type": "string",
+        "title": "Datadog Domain",
+        "enum": ["mcp.datadoghq.com", "us3.datadoghq.com", "us5.datadoghq.com"]
+      }
+    },
+    "required": ["patToken", "ddHostname"]
+  }
 }
