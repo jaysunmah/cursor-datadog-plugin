@@ -18,7 +18,7 @@
     "properties": {
       "DD_MCP_DOMAIN": {
         "type": "string",
-    	"description": "Link to [help center](www.test.com)",
+    	"description": "Link to [help center](https://www.test.com)",
         "title": "Datadog Domain",
         "enum": ["mcp.datadoghq.com", "us3.datadoghq.com", "us5.datadoghq.com"]
       }
